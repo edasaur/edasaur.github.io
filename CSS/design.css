@@ -129,7 +129,11 @@ body {
 }
 
 .section {
-    background-image: url('../images/crossword.png');
-    /*background-image: url('../images/outlets.png');*/
+    /*background-image: url('../images/crossword.png');*/
+    background-image: url('../images/outlets.png');
     height: 100%;
+}
+
+.origami {
+    background-color: gray;
 }
