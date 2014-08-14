@@ -99,8 +99,9 @@ p {
     height: 100%;
     background-repeat: no-repeat;
     opacity: 0.4;
-    background-position: 50%;
-    background-color: blue;
+    background-size: 50% auto;
+    background-position: 50% 30%;
+    background-image: url('../images/profile.jpg');
     visibility: visible;
     -webkit-transform: rotate(-60deg); /*Chrome*/
        -moz-transform: rotate(-60deg); /*Firefox*/
