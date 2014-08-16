@@ -100,7 +100,7 @@ p {
     background-repeat: no-repeat;
     opacity: 0.4;
     background-size: 50% auto;
-    background-position: 50% 30%;
+    background-position: 55% 25%;
     background-image: url('../images/profile.jpg');
     visibility: visible;
     -webkit-transform: rotate(-60deg); /*Chrome*/
