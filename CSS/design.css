@@ -23,7 +23,7 @@ p {
 
 
 #container {
-    height: 20%;
+    height: 25%;
     margin: auto;
     position: absolute;
     width: 50%;
@@ -32,11 +32,13 @@ p {
     right: 0px;
     bottom: 0px;
     overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
 }
 
-.tablerow {
+.table {
    height: 80%;
-   margin-top: -40px;
+   margin-top: 0%;
    margin-left: auto;
    margin-right: auto; 
    width: 50%;
@@ -45,7 +47,34 @@ p {
    right: 0px;
    bottom: 0px;
    overflow: hidden;
-   background-color: blue;
+   /*background-color: blue;*/
+}
+
+.tr {
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    height: 30%;
+}
+
+.td {
+    height: 100%;
+    width: 30%;
+    float: left;    
+}
+
+#one.td {
+    background-color: yellow;
+    margin-right: 5%;
+}
+
+#two.td {
+    background-color: red;
+}
+
+#three.td {
+    margin-left: 5%;
+    background-color: pink;
 }
 
 #header {
@@ -96,7 +125,7 @@ p {
         -ms-transform: rotate(-60deg);
          -o-transform: rotate(-60deg);
             transform: rotate(-60deg);
-    }
+}
 
 .hexagon-in2 {
     transition: all 0.5s;
@@ -112,7 +141,7 @@ p {
         -ms-transform: rotate(-60deg);
          -o-transform: rotate(-60deg);
             transform: rotate(-60deg);
-    }
+}
 
 .hexagon-in2:hover {
     background-image: url('../images/profile2.jpg');
@@ -121,7 +150,7 @@ p {
 .hexagon1 {
     width: 600px;
     height: 200px;
-    margin: 0% 0% 0% -10%;
+    margin: auto 0% auto -180px;
 }
 
 .title{ 
@@ -136,7 +165,6 @@ p {
 .section {
     background-image: url('../images/outlets.png');
     height: 100%;
-    overflow: visible;
 }
 
 .origami {
