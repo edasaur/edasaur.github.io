@@ -6,6 +6,8 @@
 @media all and (max-width: 479px) {
 
 }
+
+/*Average phone size 480px in width*/
 @media all and (min-width: 480px){
     #container {
         height: 199px;
@@ -31,24 +33,23 @@
         height: 100%;
         background-color: rgba(0,0,0,0.5);
     }
-
+    /*This should probably be in a different format than browser size. Think horizontal strip for each cell*/
     .table {
-        background-color: blue;
+        /*background-color: blue;*/
         height: 80%;
         margin-top: 0%;
         margin-left: auto;
         margin-right: auto; 
-        width: 100%;
+        width: 400px;
         top: 0px;
         left: 0px;
         right: 0px;
         bottom: 0px;
         overflow: hidden;
     }
-
-
 }
 
+/*This is intended for tablets*/
 @media all and (min-width: 768px) {
     #container {
         display: inline-block;
@@ -106,12 +107,12 @@
     }
     
     .table {
-         background-color: blue;
+         /*background-color: blue;*/
          height: 80%;
          margin-top: 0%;
          margin-left: auto;
          margin-right: auto; 
-         width: 100%;
+         width: 700px;
          top: 0px;
          left: 0px;
          right: 0px;
@@ -120,7 +121,7 @@
     }
 }
 
-
+/*Browser size*/
 @media all and (min-width: 1366px) {
     #container {
         display: inline-block;
@@ -203,12 +204,12 @@
     }
  
     .table {
-        background-color: blue;
+        /*background-color: blue;*/
         height: 80%;
         margin-top: 0%;
         margin-left: auto;
         margin-right: auto; 
-        width: 100%;
+        width: 1000px;
         top: 0px;
         left: 0px;
         right: 0px;
@@ -227,21 +228,6 @@ p {
     right: 0;
     top: 0;
     left: 0;
-}
-
-
-.table {
-   background-color: blue;
-   height: 80%;
-   margin-top: 0%;
-   margin-left: auto;
-   margin-right: auto; 
-   width: 100%;
-   top: 0px;
-   left: 0px;
-   right: 0px;
-   bottom: 0px;
-   overflow: hidden;
 }
 
 .tr {
