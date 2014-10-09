@@ -32,11 +32,26 @@
         background-color: rgba(0,0,0,0.5);
     }
 
+    .table {
+        background-color: blue;
+        height: 80%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        overflow: hidden;
+    }
+
 
 }
 
 @media all and (min-width: 768px) {
     #container {
+        display: inline-block;
         height: 210px;
         margin: auto;
         position: absolute;
@@ -51,17 +66,19 @@
     }
      
     #bio {
+        padding: 2px 2px 2px 2px;
         color: white;
         float: left;
         border-radius: 15px;
         position: absolute;
         font-family: sans-serif;
-        width: 62%;
-        height: 95%;
+        width: 66%;
+        height: 100%;
         background-color: rgba(0,0,0,0.5);
     }
 
     .hexagon {
+        float: right;
         transition: all 0.5s;
         display: inline-block;
         left: 0px;
@@ -87,10 +104,26 @@
     .hexagon-in2 {
          display: hidden;
     }
+    
+    .table {
+         background-color: blue;
+         height: 80%;
+         margin-top: 0%;
+         margin-left: auto;
+         margin-right: auto; 
+         width: 100%;
+         top: 0px;
+         left: 0px;
+         right: 0px;
+         bottom: 0px;
+         overflow: hidden;
+    }
 }
+
 
 @media all and (min-width: 1366px) {
     #container {
+        display: inline-block;
         height: 199px;
         margin: auto;
         position: absolute;
@@ -105,14 +138,17 @@
     }
     
     #bio {
+        padding: 2px 2px 2px 2px;
         color: white;
         border-radius: 15px;
         position: absolute;
         font-family: sans-serif;
         position: absolute;
         right: 0px;
-        width: 499px;
-        height: 166px;
+        width: 65%;
+        /*height: 166px;
+        width: 499px;*/
+        height: 100%;
         background-color: rgba(0,0,0,0.5);
     }
 
@@ -165,7 +201,20 @@
         height: 200px;
         margin: auto 0% auto -180px;
     }
-
+ 
+    .table {
+        background-color: blue;
+        height: 80%;
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        overflow: hidden;
+    }
 }
 
 p {
@@ -182,11 +231,12 @@ p {
 
 
 .table {
+   background-color: blue;
    height: 80%;
    margin-top: 0%;
    margin-left: auto;
    margin-right: auto; 
-   width: 50%;
+   width: 100%;
    top: 0px;
    left: 0px;
    right: 0px;
@@ -235,6 +285,7 @@ p {
     width: 100%;
     height: 100%;
 }
+
 .title{ 
     font-size: 30px;
     font-family: sans-serif;
@@ -246,7 +297,6 @@ p {
 
 .section {
     background-image: url('../images/outlets.png');
-    height: 100%;
 }
 
 .origami {
