@@ -40,7 +40,7 @@
         margin-top: 0%;
         margin-left: auto;
         margin-right: auto; 
-        width: 400px;
+        width: 100%;
         top: 0px;
         left: 0px;
         right: 0px;
@@ -107,17 +107,19 @@
     }
     
     .table {
-         /*background-color: blue;*/
+         /*background-color: cyan;*/
+         position: relative;
          height: 80%;
-         margin-top: 0%;
+         margin-top: -100px;
          margin-left: auto;
-         margin-right: auto; 
+         margin-right: auto;
          width: 700px;
          top: 0px;
          left: 0px;
          right: 0px;
          bottom: 0px;
          overflow: hidden;
+         z-index: 9999;
     }
 }
 
@@ -206,7 +208,8 @@
     .table {
         /*background-color: blue;*/
         height: 80%;
-        margin-top: 0%;
+        position: relative;
+        margin-top: -100px;
         margin-left: auto;
         margin-right: auto; 
         width: 1000px;
@@ -243,17 +246,17 @@ p {
 }
 
 #one.td {
-    background-color: orange;
+    background-color: purple;
     margin-right: 2%;
 }
 
 #two.td {
-    background-color: orange;
+    background-color: blue;
 }
 
 #three.td {
+    background-color: green;
     margin-left: 2%;
-    background-color: orange;
 }
 
 #header {
@@ -283,6 +286,7 @@ p {
 
 .section {
     background-image: url('../images/outlets.png');
+    padding-bottom: 100px
 }
 
 .origami {
