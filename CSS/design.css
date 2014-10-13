@@ -47,7 +47,49 @@
         bottom: 0px;
         overflow: hidden;
     }
-}
+
+    .tr {
+        margin-top: 0px;
+        width: 100%;
+        height: 30%;
+    }
+    
+    .td {
+        display: none;
+        height: 100%;
+        width: 32%;
+        float: left;    
+    }
+
+    #one.td {
+        background-color: purple;
+    }
+
+    #two.td {
+        background-color: blue;
+    }
+
+    #three.td {
+        background-color: green;
+    }
+
+    #first.tr #one.td {
+        width: 100%;
+        display: inline;
+    }
+
+    #second.tr #two.td {
+        width: 100%;
+        display: inline;
+    }
+    
+    #third.tr #three.td {
+        width: 100%;
+        display: inline;
+    }
+}    
+
+
 
 /*This is intended for tablets*/
 @media all and (min-width: 768px) {
@@ -121,6 +163,52 @@
          overflow: hidden;
          z-index: 9999;
     }
+
+    .tr {
+        margin-top: 20px;
+        width: 100%;
+        height: 30%;
+    }
+    
+    .td {
+        display: inline;
+        height: 100%;
+        width: 32%;
+        float: left;    
+    }
+
+    #one.td {
+        background-color: purple;
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    #two.td {
+        background-color: blue;
+        width: 32%;
+    }
+
+    #three.td {
+        background-color: green;
+        margin-left: 2%;
+        width: 32%;
+    }
+
+    #first.tr #one.td {
+        width: 32%;
+        display: inline;
+    }
+
+    #second.tr #two.td {
+        width: 32%;
+        display: inline;
+    }
+    
+    #third.tr #three.td {
+        width: 32%;
+        display: inline;
+    }
+
 }
 
 /*Browser size*/
@@ -219,7 +307,52 @@
         bottom: 0px;
         overflow: hidden;
     }
+
+    .tr {
+        margin-top: 20px;
+        width: 100%;
+        height: 30%;
+    }
+    
+    .td {
+        display: inline;
+        height: 100%;
+        width: 32%;
+        float: left;    
+    }
+
+    #one.td {
+        background-color: purple;
+        margin-right: 2%;
+    }
+
+    #two.td {
+        background-color: blue;
+    }
+
+    #three.td {
+        background-color: green;
+        margin-left: 2%;
+    }
+
+    #first.tr #one.td {
+        width: 32%;
+        display: inline;
+    }
+
+    #second.tr #two.td {
+        width: 32%;
+        display: inline;
+    }
+    
+    #third.tr #three.td {
+        width: 32%;
+        display: inline;
+    }
+
+
 }
+
 
 p {
     text-align: center;
@@ -232,33 +365,6 @@ p {
     top: 0;
     left: 0;
 }
-
-.tr {
-    margin-top: 20px;
-    width: 100%;
-    height: 30%;
-}
-
-.td {
-    height: 100%;
-    width: 32%;
-    float: left;    
-}
-
-#one.td {
-    background-color: purple;
-    margin-right: 2%;
-}
-
-#two.td {
-    background-color: blue;
-}
-
-#three.td {
-    background-color: green;
-    margin-left: 2%;
-}
-
 #header {
     position: relative;
     background-image: url('../images/Background.jpg');
