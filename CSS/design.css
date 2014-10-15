@@ -395,6 +395,11 @@ p {
     padding-bottom: 100px
 }
 
-.origami {
-    background-color: gray;
+.projects {
+    color: white;
+    border-color: blue;
+}
+
+.resume {
+    color: white;
 }
