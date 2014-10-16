@@ -1,8 +1,5 @@
-/*
-1) Crop picture at top of home(crop out snow)
-2) Place a blur on the background of the arrow div (blur of colorado picture)
-3) Come up with good colors for rest of page based on the initial picture
-*/
+/*Remember to convert to SASS*/
+
 @media all and (max-width: 479px) {
 
 }

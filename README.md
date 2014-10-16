@@ -1,11 +1,7 @@
 Website
 =======
 
-Repository for my future website.
+Currently, I'm doing a redesign of my personal website.
 
-This will contain several main sections:
+Stay tuned for more information.
 
-Projects
-Origami
-Piano
-Resume/Contact Me
