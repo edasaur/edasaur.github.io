@@ -321,8 +321,12 @@
         margin-left: 1%;
     }
 
-    #first.tr #one.td {
-        display: inline;
+    .header {
+        margin: 25px 25px 25px 25px;
+    }
+
+    .desc {
+        margin: 25px 25px 25px 25px;
     }
 }
 
@@ -341,6 +345,7 @@ p {
     top: 0;
     left: 0;
 }
+
 #header {
     position: relative;
     background-image: url('../images/Background.jpg');
@@ -392,4 +397,8 @@ p {
 input {
     border-radius: 5px;
     font-size: 20px;
+}
+
+form {
+    margin-bottom: 0px;
 }
