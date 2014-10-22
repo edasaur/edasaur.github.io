@@ -330,6 +330,33 @@
     .desc {
         margin: 10px 25px 25px 25px;
     }
+    
+    .projects {
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 1000px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: gray;
+        overflow: hidden;
+    }
+    
+    .project {
+        background-color: blue;
+        margin-top: 15px;
+        margin-right: 1%;
+        margin-left: 1%;
+        width: 98%;
+        height: 200px;
+        margin-bottom: 25px;
+    }
 }
 
 p {
@@ -382,10 +409,24 @@ p {
     border-color: blue;
 }
 
-.resume {
+.contact {
     color: white;
     left: 50%;
     text-align: center;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: gray;
+    overflow: hidden;
 }
 
 .text {
