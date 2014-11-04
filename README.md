@@ -1,7 +1,6 @@
 Website
 =======
 
-Currently, I'm doing a redesign of my personal website.
+Redesign is pretty much done. Will intermittently revise small portions of website
 
-Stay tuned for more information.
-
+May do perform some reworks on code for optimization purposes.

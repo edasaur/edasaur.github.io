@@ -444,6 +444,7 @@
         margin-bottom: 25px;
         padding-top: 15px;
         box-sizing: border-box;
+        padding-right: 30px;
     }
 
     #lenna {
@@ -597,6 +598,11 @@ form {
     background-size: cover;
     width: 100%;
 
+}
+
+a {
+    text-decoration: underline;
+    color: yellow;
 }
 /*.media>img {
     border-radius: 5px;
