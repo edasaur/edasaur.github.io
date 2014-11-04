@@ -1,4 +1,3 @@
-$( document ).ready(function() {
     function postContactToGoogle() {
         var name = $('#name').val();
         var email = $('#email').val();
@@ -21,4 +20,3 @@ $( document ).ready(function() {
             }
         });
     }
-});   
