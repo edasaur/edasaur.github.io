@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Homepage</title>
         <link rel="stylesheet" type="text/css" href="CSS/design.css">
+        <script src="js/script.js"></script>
     </head>
     <body>
         <div id="page">
@@ -21,52 +23,49 @@
             </div>
 
             <div class="section skills">
-                <div class="table">
-                    <div class="tr" id="first">
-                        <div class="td" id="one">
-                            <div class="header">
-                                <img src="./images/github.png" class="icon-img" />
-                                <span>Github</span>
+                    <div class="table">
+                        <div class="tr" id="first">
+                            <div class="td" id="one">
+                                <div class="header">
+                                    <img src="./images/github.png" class="icon-img" />
+                                    <span>Github</span>
+                                </div>
+                                <div class="desc">
+                                    Github is a tool used for version control and collaboration on developing software. By using .git, Github allows developers to collaborate on projects and allows for convenient rollback and revision. I have been experienced with .git for the last 3 years.
+                                </div>
                             </div>
-                            <div class="desc">
-                                Github is a tool used for version control and collaboration on developing software. By using .git, Github allows developers to collaborate on projects and allows for convenient rollback and revision. I have been experienced with .git for the last 3 years.
+                            <div class="td" id="two">
+                                <div class="header">
+                                    <img src="./images/python.png" class="icon-img" />
+                                    <span>Python</span>
+                                </div>
+                                <div class="desc">
+                                    Python is awesome. I have been using Python for the last 3 years and scripted many different things, big and small. From the smallest automated tasks to larger tasks, Python is very useful. 
+                                </div>
                             </div>
-                        </div>
-                        <div class="td" id="two">
-                            <div class="header">
-                                <img src="./images/python.png" class="icon-img" />
-                                <span>Python</span>
-                            </div>
-                            <div class="desc">
-                                Python is awesome. I have been using Python for the last 3 years and scripted many different things, big and small. From the smallest automated tasks to larger tasks, Python is very useful. 
-                            </div>
-                        </div>
-                        <div class="td" id="three">
-                            <div class="header">
-                                <img src="./images/html5.png" class="icon-img" />
-                                <span>HTML 5</span>
-                            </div>
-                            <div class="desc">
-                                HTML 5 is the new set of protocols for webpage building. 
+                            <div class="td" id="three">
+                                <div class="header">
+                                    <img src="./images/html5.png" class="icon-img" />
+                                    <span>HTML 5</span>
+                                </div>
+                                <div class="desc">
+                                    HTML 5 is the new set of protocols for webpage building. 
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
-
-            <div class="section">
+            
+            <div class="section code">
                 <div class="projects">
-                     Here are some projects that I have worked on in the past/am working on currently:
+                    Here are some projects that I have worked on in the past and am currently working on:
                      <div class="project">
-                        <a href="https://www.github.com/edasaur/MusicTranscription.git">
-                            <div class="projpic">
-                                <img src="./images/music.jpg" />
-                            </div>
-                        </a>
+                        <div class="projpic">
+                            <img src="./images/music.jpg" />
+                        </div>
                         <div class="projdesc">
-                            <h4>MusicTranscription</h4>
-                            Technologies Employed: C, Python<br>
-                            Currently in the process of writing a program that takes in audio files (whether it be MP3 or WAV) and performing FFT's to analyze frequencies and transcribe the music.                                
+                            MusicTranscription [C, Python]:<br>
+                                
                         </div>
                     </div>
                     
@@ -75,9 +74,7 @@
                             <img src="./images/price.jpg" id="projtwo" />
                         </div>
                         <div class="projdesc">
-                            <h4>PriceTracker</h4>
-                            Technologies Employed: Python, MongoDB, ExpressJS, AngularJS, NodeJS<br>
-                            Developed a flexible price-tracking web application, generalized across various e-commerce platforms by using API calls and efficient web-crawling. Used by Symantec's marketing team for keeping track of Norton product prices.
+                            Price Tracker [Python, MongoDB, ExpressJS, AngularJS, NodeJS]:<br>Developed a flexible price-tracking web application, generalized across various e-commerce platforms by using API calls and efficient web-crawling. Used by Symantec's marketing team for keeping track of Norton product prices.
                         </div>
                     </div>
                     
@@ -86,26 +83,28 @@
                             <img id="lenna" src="./images/lenna.png" />
                         </div>
                         <div class="projdesc">
-                            <h4>Image Processing and Optimization</h4>
-                            Technologies employed: C<br>
-                            Wrote a highly optimized multi-threaded program that takes in an image and performs edge-detect, sharpening, embossment, and blurring. Optimized the program and its cache performance using Intel Intrinsics.
+                            Image Processing and Optimization [C]:<br>Wrote a highly optimized multi-threaded program that takes in an image and performs edge-detect, sharpening, embossment, and blurring. Optimized the program and its cache performance using Intel Intrinsics.
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="section">
+
                 <div class="contact">     
                     <div class="text">
                         Interested?<br>
                         Drop me a note!<br>
                     </div>
-                    <div class="media"></div>
-                    <form action="demo_form.asp" method="get" id="contact">
-                        <input type="text" name="Name" placeholder="Name"><br><br>
-                        <input type="text" name="email" placeholder="email@email.com"><br><br>
-                        <textarea  name="message" form="contact" cols="4" rows="10" placeholder="Message"></textarea><br><br>
-                        <input type="submit" id="submit" value="Submit"><br><br><br><br><br>
+                    <!--<div class="media">
+                        <img src="./images/linkedin.png" />
+                    </div>
+                    <br>-->
+                    <form action="" method="POST" id="contact">
+                        <input id="name" type="text" name="Name" placeholder="Name"><br><br>
+                        <input id="email" type="text" name="email" placeholder="email@email.com"><br><br>
+                        <textarea  id="message" name="message" form="contact" cols="4" rows="10" placeholder="Message"></textarea><br><br>
+                        <input type="submit" id="submit" value="Submit" onclick="postContactToGoogle()"><br><br><br><br><br>
                     </form>
                 </div>
             <br><br><br>

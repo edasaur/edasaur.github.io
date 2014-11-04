@@ -69,6 +69,47 @@
     #three.td {
         background-color: green;
     }
+    
+    #lenna {
+        transition: -webkit-filter 0.5s;
+        -webkit-filter: blur(4px);
+        overflow: hidden;
+    }
+
+    #lenna:hover {
+        -webkit-filter: none;
+        overflow: hidden;
+    }
+
+    .projpic {
+        overflow: hidden;
+        border-radius: 50%;
+        background-color: green;
+        height: 150px;
+        width: 150px;
+        border: 3px solid yellow;
+        float: left;
+        margin-left: 15px;
+        margin-right: 40px;
+    }
+
+    .projdesc {
+        height: 150px; 
+        display: inline;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+
+    textarea {
+        width: 80%;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    img#projtwo {
+        height: 200px;
+        margin-top: 2px;
+    }
 }
 
 
@@ -184,6 +225,47 @@
     #first.tr #one.td {
         width: 31%;
         display: inline;
+    }
+
+    #lenna {
+        transition: -webkit-filter 0.5s;
+        -webkit-filter: blur(4px);
+        overflow: hidden;
+    }
+
+    #lenna:hover {
+        -webkit-filter: none;
+        overflow: hidden;
+    }
+
+    .projpic {
+        overflow: hidden;
+        border-radius: 50%;
+        background-color: green;
+        height: 150px;
+        width: 150px;
+        border: 3px solid yellow;
+        float: left;
+        margin-left: 15px;
+        margin-right: 40px;
+    }
+
+    .projdesc {
+        height: 150px; 
+        display: inline;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+
+    textarea {
+        width: 80%;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    img#projtwo {
+        height: 200px;
+        margin-top: 2px;
     }
 }
 
@@ -363,6 +445,47 @@
         padding-top: 15px;
         box-sizing: border-box;
     }
+
+    #lenna {
+        transition: -webkit-filter 0.5s;
+        -webkit-filter: blur(4px);
+        overflow: hidden;
+    }
+
+    #lenna:hover {
+        -webkit-filter: none;
+        overflow: hidden;
+    }
+
+    .projpic {
+        overflow: hidden;
+        border-radius: 50%;
+        background-color: green;
+        height: 150px;
+        width: 150px;
+        border: 3px solid yellow;
+        float: left;
+        margin-left: 15px;
+        margin-right: 40px;
+    }
+
+    .projdesc {
+        height: 150px; 
+        display: inline;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+
+    textarea {
+        width: 80%;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    img#projtwo {
+        height: 200px;
+        margin-top: 2px;
+    }
 }
 
 p {
@@ -386,6 +509,7 @@ p {
     background-image: url('../images/Background.jpg');
     background-position: 0% 50%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -465,43 +589,18 @@ form {
     max-width: 100%;
 }
 
-#lenna {
-    transition: -webkit-filter 0.5s;
-    -webkit-filter: blur(4px);
-    overflow: hidden;
-}
+.code {
+    background-image: url('../images/code.png');
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
 
-#lenna:hover {
-    -webkit-filter: none;
-    overflow: hidden;
 }
-
-.projpic {
-    overflow: hidden;
-    border-radius: 50%;
-    background-color: green;
-    height: 150px;
-    width: 150px;
-    border: 3px solid yellow;
-    float: left;
-    margin-left: 15px;
-    margin-right: 40px;
-}
-
-.projdesc {
-    height: 150px; 
-    display: inline;
-    margin-right: 50px;
-    margin-top: 30px;
-}
-
-textarea {
-    width: 80%;
-    font-size: 20px;
+/*.media>img {
     border-radius: 5px;
-}
-
-img#projtwo {
-    height: 200px;
-    margin-top: 2px;
-}
+    height: 40px;
+    width: 40px;
+    
+}*/
