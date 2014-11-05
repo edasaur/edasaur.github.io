@@ -301,6 +301,11 @@
         background-color: rgba(0,0,0,0.5);
     }
     
+    #bio > p {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+        
     .hexagon {
         position: absolute;
         overflow: hidden;
