@@ -3,114 +3,11 @@
     <head>
         <title>Homepage</title>
         <link rel="stylesheet" type="text/css" href="CSS/design.css">
-        <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
-        <script src="js/script.js"></script>
     </head>
     <body>
-        <div id="page">
-            <div id="header">
-                <div class="overlay">
-                    <div id="container">
-                        <div class="hexagon hexagon1">
-                            <div class="hexagon-in1">
-                                <div class="hexagon-in2"></div>
-                            </div>
-                        </div>
-                        <div id="bio">
-                            <p style="centered">My name is Edward Wang and I am a third-year undergraduate EECS major at the University of California, Berkeley. On the web, I am often known as 'Edasaur'. I like things that work and look nice. Last summer (summer 2014), I interned at <a href="http://www.symantec.com/">Symantec</a> as a graduate student intern. While not programming or working on homework assignments, I can often be found playing badminton, practicing Wushu, or solving Rubik's cubes</p> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section skills">
-                    <div class="table">
-                        <div class="tr" id="first">
-                            <div class="td" id="one">
-                                <div class="header">
-                                    <img src="./images/git.png" class="icon-img" />
-                                    <span><a href="http://www.github.com/edasaur">.git</a></span>
-                                </div>
-                                <div class="desc">
-                                    .git is a system used for version control and collaboration on developing software. Version control allows for developers to easily rollback and keep track of changes, while collaboration allows them to work more efficiently in groups. I am moderately well-versed in .git and have been using it comfortably for the last couple of years along with Github. Click on the title for my github.
-                                </div>
-                            </div>
-                            <div class="td" id="two">
-                                <div class="header">
-                                    <img src="./images/python.png" class="icon-img" />
-                                    <span><a href="https://www.python.org/">Python</a></span>
-                                </div>
-                                <div class="desc">
-                                    Python is primariy a relatively high-level programming language that has an emphasis on code readability. Despite it's relative high level of abstraction, Python still scales, allowing developers to create anywhere from small scripts to large applications. I am relatively well-versed in Python, having used it in the last three years. 
-                                </div>
-                            </div>
-                            <div class="td" id="three">
-                                <div class="header">
-                                    <img src="./images/html5.png" class="icon-img" />
-                                    <span><a href="http://www.w3schools.com/html/html5_intro.asp">HTML 5</a></span>
-                                </div>
-                                <div class="desc">
-                                    HTML 5 is the fifth revision of the HTML markup language and is used for creating webpages. The latest revision is an attempt on improving support for multimedia components. As HTML 5 is relatively new, I am currently still learning HTML 5 and will continue to convert portions of my website over to HTML 5 standards over time.  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            
-            <div class="section code">
-                <div class="projects">
-                    Here are some projects that I have worked on in the past and am currently working on:
-                     <div class="project">
-                        <div class="projpic">
-                            <img src="./images/music.jpg" />
-                        </div>
-                        <div class="projdesc">
-                            <div><a href="https://www.github.com/edasaur/MusicTranscription.git">MusicTranscription </a>[C, <a href="https://www.python.org/">Python</a>]:</div><br>This project was started at the hackathon, CalHacks 2014. The original goal of the project was to convert sound recordings (whether it be wav or mp3) and convert it to sheet music. Upon embarking on this project, I realized that this project was a very difficult, as polyphonic transcription remains a research topic to this day. One of the main challenges is finding the pitches played within the audio file. However, if relatively successful with recognition of pitches, there is a wide variety of applications for this project.
-                        </div>
-                    </div>
-                    
-                    <div class="project">
-                        <div class="projpic">
-                            <img src="./images/price.jpg" id="projtwo" />
-                        </div>
-                        <div class="projdesc">
-                            <div>Price Tracker [<a href="https://www.python.org/">Python</a>, <a href="http://www.mongodb.org/">MongoDB</a>, <a href="http://expressjs.com/">ExpressJS</a>, <a href="https://angularjs.org/">AngularJS</a>, <a href="http://nodejs.org/">NodeJS</a>]:</div><br>This web application was developed during my internship at Symantec in the summer of 2014. Along with several graduate students, I developed a flexible price-tracking web application, generalized across multiple e-commerce platforms. Through the use of API calls and efficient web-crawling, our application kept track of prices on various Norton products on many different e-commerce platforms. One of the main take-aways from this project is the importance of optimization. This application is currently in use by Symantec's marketing team.
-                        </div>
-                    </div>
-                    
-                    <div class="project">
-                        <div class="projpic">
-                            <img id="lenna" src="./images/lenna.png" />
-                        </div>
-                        <div class="projdesc">
-                            <div>Image Processing and Optimization [C]:</div><br>This was a project done at one of UC Berkeley's Computer Science courses. The goal of the project was to optimize a program that could perform image convolution. By using multi-threading, and optimizing cache performance, I was able to create a fairly efficient image edge-detector, edge-sharpening, embossing, and blurring tool. Due to course policy, however, I am unable to link to the code I wrote.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section">
-
-                <div class="contact">     
-                    <div class="text">
-                        Want a copy of my resume?<br>
-                        Drop me a note!<br>
-                    </div>
-                    <!--<div class="media">
-                        <img src="./images/linkedin.png" />
-                    </div>
-                    <br>-->
-                    <form action="https://docs.google.com/forms/d/1Oe0SscekS8WhMFbH7QaOvm5w1y4ltjqBzsOLfGrnq4E/formResponse" method="GET" id="contact">
-                    <br>
-                        <input id="name" type="text" name="entry.885349681" placeholder="Name"><br><br>
-                        <input id="email" type="text" name="entry.794999449" placeholder="email@email.com"><br><br>
-                        <textarea  id="message" name="entry.2007256758" form="contact" cols="4" rows="10" placeholder="Message"></textarea><br><br>
-                        <input type="submit" id="submit" value="Submit"><br><br><br><br><br>
-                    </form>
-                </div>
-            <br><br><br>
-            </div>
-
+        <div>
+            <canvas id="myCanvas"></canvas>
         </div>
+        <script src="js/script.js"></script>
     </body>
 </html>
