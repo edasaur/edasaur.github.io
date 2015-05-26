@@ -1,26 +1,22 @@
 (function() {
-	var canvas = document.getElementById('myCanvas'),
-			
-	// Obtain a graphics context on the
-	// canvas element for drawing.
+    var canvas = document.getElementById('myCanvas'),
 	context = canvas.getContext('2d');
  
-	// Start listening to resize events and
-	// draw canvas.
-	initialize();
- 	function initialize() {
-		// Register an event listener to
-		// call the resizeCanvas() function each time 
-		// the window is resized.
-		window.addEventListener('resize', resizeCanvas, false);
+    // Start listening to resize events and
+    // draw canvas.
+    initialize();
+    function initialize() {
+        // Register an event listener to
+        // call the resizeCanvas() function each time 
+        // the window is resized.
+        window.addEventListener('resize', resizeCanvas, false);
 		
-		// Draw canvas border for the first time.
-		resizeCanvas();
-	}
+        // Draw canvas border for the first time.
+        resizeCanvas();
+    }
 		
-	// Drawing the circle.
+    // Drawing the circle.
     function redraw() {
-        context.clearRect(0, 0, canvas.width, canvas.height);
         var centerX = canvas.width / 2;
         var centerY = canvas.height / 2;
         var radius = 125;
@@ -46,13 +42,13 @@
         context.stroke();
     }
 
-	// Runs each time the DOM window resize event fires.
-	// Resets the canvas dimensions to match window,
-	// then draws the new borders accordingly.
-	function resizeCanvas() {
-		canvas.width = window.innerWidth;
-		canvas.height = window.innerHeight;
-		redraw();
-	}
-
+    // Runs each time the DOM window resize event fires.
+    // Resets the canvas dimensions to match window,
+    // then draws the new borders accordingly.
+    function resizeCanvas() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
+	redraw();
+    }
 })();
