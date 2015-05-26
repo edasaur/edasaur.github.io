@@ -1,5 +1,5 @@
 (function() {
-	var	canvas = document.getElementById('myCanvas'),
+	var canvas = document.getElementById('myCanvas'),
 			
 	// Obtain a graphics context on the
 	// canvas element for drawing.
@@ -19,7 +19,8 @@
 	}
 		
 	// Drawing the circle.
-	function redraw() {
+    function redraw() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
         var centerX = canvas.width / 2;
         var centerY = canvas.height / 2;
         var radius = 125;
