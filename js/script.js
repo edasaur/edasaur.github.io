@@ -87,7 +87,7 @@ function generatePoint(startingPoint)
 
 function pattern_create(canvas, context) {
 	counter = 0
-	while (list_points.length > 0 && counter < 140)
+	while (list_points.length > 0 && counter < 200)
 	{
 		//Select random point in list_points
 		var shape = []; //List of points that will be used to create a shape
@@ -187,8 +187,8 @@ function canvasUpdate()
 
 	//create background gradient
 	var gradient = context.createLinearGradient(0,0,width,height);
-	gradient.addColorStop(0,'#3695E7');
-	gradient.addColorStop(1,'#6FF36F');
+	gradient.addColorStop(0,'#A40BE0');
+	gradient.addColorStop(1,'#1122D6');
 	context.fillStyle=gradient;
 	context.fillRect(0,0,width,height);	
 	pattern_create(canvas, context);

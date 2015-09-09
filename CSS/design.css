@@ -1,3 +1,20 @@
+@font-face{
+    font-family: 'title_font';
+    src: url('Walkway_SemiBold-webfont.eot');
+    src: url('Walkway_SemiBold-webfont.eot?iefix') format('eot'),
+         url('Walkway_SemiBold-webfont.woff') format('woff'),
+         url('Walkway_SemiBold-webfont.ttf') format('truetype'),
+         url('Walkway_SemiBold-webfont.svg#webfont') format('svg');
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: red;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +26,69 @@ body, html {
     margin: 0;
 }
 
-#myCanvas {
-    position:absolute;
-    width:100%;
-    height:100%;
+#canvas-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#canvas-wrap canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#info {
+    position: absolute;
+    color: white;
+    width: 700px;
+    height: 300px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    margin: auto;
+}
+
+#profile {
+    height: 100%;
+    width: 200px;
+    border-radius: 8px;
+}
+
+#blurb {
+    position: relative;
+    height: 100%;
+    width: 470px;
+    float: right;
+    color: white;
+    z-index: 2;
+    margin: auto;
+    margin-left: 30px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#name {
+    font-family: 'title_font';
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#desc {
+    font-family: 'title_font';
+    font-size: 20px;
+
+}
+
+ul {
+   padding-left:50px;
 }
